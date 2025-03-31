@@ -15,5 +15,6 @@ def updated():
 initial_menu=["Pizza", "Burger", "Pasta", "Salad"]
 remove('Salad')
 add('Tacos')
-check(input('Search the Food: '))
 updated()
+check(input('Search the Food: '))
+
