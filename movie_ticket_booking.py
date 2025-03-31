@@ -33,7 +33,7 @@ def cancel(cancel_seat):
         print(f"You didn't booked seat {cancel_seat}")
 def available():
     Available_seats=[i for i in range(1,total_seats+1) if i not in booked_seats]
-    return Available_seats
+    return f'Available_seats:{Available_seats}'
 book(int(input("Enter Seat number to be booked: ")))
 cancel(int(input("Enter Seat number to be cancelled: ")))
 print(available())
