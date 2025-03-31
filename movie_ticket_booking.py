@@ -1,6 +1,6 @@
 total_seats = int(input("Total Tickets: "))
 booked_seats = []
-Available_seats= [i for i in range(1,total_seats+1) if i not in booked_seats]
+Available_seats = [i for i in range(1,total_seats+1) if i not in booked_seats]
 
 def book(book_seat):
     if book_seat in Available_seats :
