@@ -13,7 +13,7 @@ def book(book_seat):
                 booked_seats.append(n)
                 Available_seats.remove(n)
             else:
-                break
+                return
     else:
         print(f'Seat {book_seat} is already booked or Invalid')
 def cancel(cancel_seat):
