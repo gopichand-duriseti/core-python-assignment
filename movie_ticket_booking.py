@@ -7,7 +7,7 @@ def book(book_seat):
         booked_seats.append(book_seat)
         Available_seats.remove(book_seat)
         while True:
-            x=input("You want to book another ticket:(yes/no) ").lower()
+            x=input("You want to book another ticket(y/n): ").lower()
             if x=='yes' or x=='y':
                 n=int(input("Enter Seat Number:"))
                 booked_seats.append(n)
